@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Todo App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>TO-DO APP</h1>
+    </header>
+    <main>
+        <div id="maincontent">
+            <table id="tableOfContent">
+                <tr>
+                    <td><input type="text" placeholder="Enter Todo Here" id="todoInput"></td>
+                    <td><input type="date" name="date" id="dateOfTask"></td>
+                    <td><button id="addBtn" onclick="addTask();">Add</button></td>
+                </tr>
+                <tr>
+                    <th>Pending Tasks</th>
+                    <th>Due Date</th>
+                    <th>Mark Done</th>
+                </tr>
+            </table>
+        </div>
+    </main>
+    <script src="todo.js">
+    </script>
+</body>
+</html>
